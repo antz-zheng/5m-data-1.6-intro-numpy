@@ -68,7 +68,9 @@ Write a Python code to calculate the sum of all the elements in each row.
 Answer:
 
 ```python
-
+import numpy as np
+arr = np.ones((5, 5), dtype=int)
+print(arr)
 ```
 
 ### Question 5
@@ -82,13 +84,13 @@ arr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
 Write a Python code to calculate the average of all the elements.
 
 Answer:
-import numpy as np
+i
+```python
+mport numpy as np
 arr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
 arr2 = np.sum(arr,axis=1)
 
 print (arr2)
-```python
-
 ```
 
 ## Submission
