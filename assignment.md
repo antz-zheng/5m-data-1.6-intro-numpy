@@ -19,10 +19,9 @@ arr = np.array([1, 2, 3, 4, 5])
 Write a Python code to multiply each element in the array by 2.
 
 Answer:
-
-```python
-
-```
+import numpy as np
+arr = np.array([1, 2, 3, 4, 5])
+arr * 2
 
 ### Question 2
 
@@ -35,6 +34,10 @@ arr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
 Write a Python code to select the second row of the array.
 
 Answer:
+import numpy as np
+arr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+secondrow = arr[1]
+print (secondrow)
 
 ```python
 
@@ -45,7 +48,9 @@ Answer:
 Create a 2D numpy array of shape (5, 5) filled with the number 1.
 
 Answer:
-
+import numpy as np
+arr = np.ones((5, 5), dtype=int)
+print(arr)
 ```python
 
 ```
@@ -77,7 +82,11 @@ arr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
 Write a Python code to calculate the average of all the elements.
 
 Answer:
+import numpy as np
+arr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+arr2 = np.sum(arr,axis=1)
 
+print (arr2)
 ```python
 
 ```
