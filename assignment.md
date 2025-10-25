@@ -34,13 +34,13 @@ arr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
 Write a Python code to select the second row of the array.
 
 Answer:
+
+
+```python
 import numpy as np
 arr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
 secondrow = arr[1]
 print (secondrow)
-
-```python
-
 ```
 
 ### Question 3
