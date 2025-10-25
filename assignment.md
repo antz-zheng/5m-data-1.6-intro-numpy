@@ -48,11 +48,11 @@ print (secondrow)
 Create a 2D numpy array of shape (5, 5) filled with the number 1.
 
 Answer:
+
+```python
 import numpy as np
 arr = np.ones((5, 5), dtype=int)
 print(arr)
-```python
-
 ```
 
 ### Question 4
